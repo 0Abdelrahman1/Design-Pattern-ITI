@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Builder Pattern/Builder Pattern.csproj" Id="1fa8b937-eaea-451c-86a7-0b9d26d60999" />
+  <Project Path="Decorator Pattern/Decorator Pattern.csproj" Id="00600298-c309-4fd3-812e-4586dbc23845" />
+  <Project Path="Entities/Entities.csproj" />
+  <Project Path="Observer Pattern (events)/Observer Pattern (events).csproj" />
+  <Project Path="Observer Pattern (OOP)/Observer Pattern (OOP).csproj" />
+  <Project Path="Strategy Pattern/Strategy Pattern.csproj" Id="6b320cd1-853a-4cbb-bacd-f9bd83a6cbdd" />
+</Solution>
