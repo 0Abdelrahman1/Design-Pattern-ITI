@@ -3,6 +3,8 @@
 ########################
 *
 !.gitignore
+!Implemented*/
+!Implemented*/**
 
 ########################
 # 2) Allow Day folders
