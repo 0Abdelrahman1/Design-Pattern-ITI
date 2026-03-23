@@ -4,6 +4,6 @@ namespace Entities
 {
     public interface IObserver
     {
-        public void Update();
+        void Update(SubjectObserved subject);
     }
 }

@@ -8,8 +8,8 @@
         {
             PlayGround = new(playGroundType);
         }
-        public abstract void BuildGallary(Gallary gallary);
-        public abstract void BuildSurface(Surface surface);
-        public abstract void BuildAudience(Audience audience);
+        public abstract PlayGroundBuilder BuildGallary(Gallary gallary);
+        public abstract PlayGroundBuilder BuildSurface(Surface surface);
+        public abstract PlayGroundBuilder BuildAudience(Audience audience);
     }
 }

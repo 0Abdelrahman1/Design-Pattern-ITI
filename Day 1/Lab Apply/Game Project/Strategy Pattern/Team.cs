@@ -2,7 +2,11 @@
 {
     public class Team
     {
-        public TeamStrategy Strategy { get; set; }
+        public TeamStrategy Strategy
+        {
+            get;
+            set => field = value ?? throw new ArgumentNullException(nameof(value), "Strategy cannot be null");
+        } = new DefendStrategy();
 
         public void PlayGame()
         {
